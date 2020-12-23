@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="multiThread-classes" parallel="classes" thread-count="3">
+    <test name="thread1">
+        <classes name="class1">
+            <class name="course.test.MultiThreadOnXml"/>
+        </classes>
+    </test>
+    <test name="thread2">
+        <classes name="class2">
+            <class name="course.test.MultiThreadOnXml"/>
+        </classes>
+    </test>
+    <test name="thread3">
+        <classes name="class3">
+            <class name="course.test.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suite>

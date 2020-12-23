@@ -1,0 +1,16 @@
+course/test/DataProviderTest.class
+course/test/TimeOutTest.class
+course/test/ExpectedExceptionTest.class
+course/test/BasicAnnotation.class
+course/test/groups/GroupsOnClass2.class
+course/test/suite/LoginTest.class
+course/test/MultiThreadOnAnnotation.class
+course/test/MultiThreadOnXml.class
+course/test/suite/PayTest.class
+course/test/groups/GroupsOnClass1.class
+course/test/GroupsTest.class
+course/test/groups/GroupsOnClass3.class
+course/test/suite/SuiteConfig.class
+course/test/IgnoreTest.class
+course/test/ParameterTest.class
+course/test/DependTest.class
