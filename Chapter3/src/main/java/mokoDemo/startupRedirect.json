@@ -1,0 +1,27 @@
+[
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "https://www.baidu.com"
+  },
+  {
+    "description": "重定向到自己的网页",
+    "request": {
+      "uri": "/redirect/toPath"
+    },
+    "redirectTo": "/redirect/myWeb"
+  },
+  {
+    "description": "我自己的网页",
+    "request": {
+      "uri": "/redirect/myWeb"
+    },
+    "response": {
+      "json": {
+        "code": "success"
+      }
+    }
+  }
+]
