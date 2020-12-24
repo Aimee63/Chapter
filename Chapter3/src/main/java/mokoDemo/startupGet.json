@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个不带参数mock的get请求",
+    "request": {
+      "uri": "/demo/get",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是不带参数mock的get请求返回结果"
+    }
+  },
+  {
+    "description": "这是一个带参数mock的get请求",
+    "request": {
+      "uri": "/demo/getWithParam",
+      "method": "get",
+      "queries": {
+        "name": "test",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是带参数mock的get请求返回结果"
+    }
+  }
+]

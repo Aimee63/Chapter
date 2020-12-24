@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个不带参数mock的post请求",
+    "request": {
+      "uri": "/demo/post",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是不带参数mock的post请求返回结果"
+    }
+  },
+  {
+    "description": "这是一个带参数mock的post请求",
+    "request":{
+      "uri": "/demo/postWithParam",
+      "method": "post",
+      "forms": {
+        "name": "test",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是带参数mock的post请求返回结果"
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "description": "这是一个带cookies信息的mock的get请求",
+    "request": {
+      "uri": "/demo/getWithCookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      },
+      "queries": {
+        "name": "test",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是带cookies信息的mock的get请求返回结果"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的mock的post请求",
+    "request": {
+      "uri": "/demo/postWithCookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "test",
+        "age": 18
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "name": "result",
+        "age": 19
+      }
+    }
+  }
+]
